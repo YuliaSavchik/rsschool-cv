@@ -94,4 +94,13 @@ ___
 | 2015-2017| "Institute for Advanced Studies and Retraining in the Field of Informatization and Management Technologies" Belarusian State University. Branch in Brest   |Accounting, analysis and audit|  
 |2009-2013| Belarusian State University of Physical  Education "Institute of Tourism" | Specialist in Tourism and Hospitality|  
 
-___
+___  
+
+### Languages  
+* Russian - Native  
+* English - A2  
+___  
+
+### About me  
+I am looking for a starter company for my career. **I am ready to work hard and develop to improve my professional skills.** It is important to work in a team of like-minded people and get feedback from the leader.
+I strive to grow to middle developer in 3 years.  
