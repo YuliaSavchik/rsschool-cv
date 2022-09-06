@@ -338,3 +338,117 @@ footer {
   line-height: 12px;
   font-weight: bold;
 }
+
+@media all and (max-width: 900px) 
+{
+    .container-for-cv {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 530px;
+        height: 2396px;
+        margin: 15px auto;
+       
+    }
+    aside {
+        padding: 10px 30px 0;
+        display: grid;
+        grid-template-columns: 216px 216px;
+        grid-template-rows: 330px 210px 231px;
+        grid-column-gap: 38px;
+        grid-row-gap: 15px;
+        width: 530px;
+        height: 816px;
+    }
+    .line {
+        display: none;
+    }
+    .summary,
+    .languages {
+        padding: 50px 0;
+    }
+    main {
+        width: 530px;
+        height: 1580px;
+    }   
+}
+@media all and (max-width: 560px)
+{
+    .container-for-cv {
+        width: 315px;
+        height: 3220px;
+    }
+    aside {
+        padding: 10px 49.5px 0;
+        display: grid;
+        grid-template-columns: 216px;
+        grid-template-rows: 330px 170px 2px 210px 2px 231px 2px 75px 2px 200px;
+        grid-row-gap: 20px;
+        width: 315px;
+        height: 1454px;
+    }
+    .line {
+        display: flex;
+    }
+    .summary,
+    .languages {
+        padding: 0;
+    }
+    main {
+        width: 315px;
+        height: 1766px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 375px 192px 1040px;
+        grid-row-gap: 15px;
+        width: 300px;
+        height: 1637px;
+
+    }
+    .education {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 30px 40px 15px 20px 85px 15px 20px 45px 15px 20px;
+        grid-row-gap: 7px;
+        text-align: center;
+    }
+    .hard-skills {
+        grid-template-columns: 145px 145px;
+        grid-column-gap: 10px;
+    }
+    .scale { width: 70px; }
+    .html-css { width: 20px; }
+    .javascript-jquery-dom { width: 35px; }
+    .git { width: 35px; }
+    .portfolio
+    {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 30px 215px 215px 550px;
+        grid-row-gap: 10px;
+    }
+    .portfolio-text {
+        width: 150px;
+        height: 215px;
+    }
+    .portfolio-text-p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .portfolio-text-a {
+        font-size: 11px;
+        line-height: 11px; 
+    }
+    .portfolio-codewars-container {
+        width: 300px;
+        height: 535px;
+    }
+    .portfolio-codewars {
+        width: 300px;
+        height: 505px;
+    }
+    footer { width: 300px; }
+}
